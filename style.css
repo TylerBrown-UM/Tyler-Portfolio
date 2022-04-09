@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: 4s;
+}
+
+
+body {
+    font-family : Helvetica, Arial, sans-serif;
+    background: linear-gradient(180deg, rgb(216, 253, 253), white, coral);
+    
+    
+    
+    }
+
+    h1  {
+        font-weight: bold;
+        color: #39a6b2;
+        margin-left: 65px;
+        font-size: 60px;
+        font-family: 'Beau Rivage', cursive;
+    }
+
+
+header {
+    padding: 0px 35px;
+    border: 4px solid lightCyan;
+    background: linear-gradient(coral, lightcyan) ;
+} 
+header nav {
+    text-align: right;
+    font-size: 23px;
+    opacity: .55;
+
+}
+
+section img {
+    margin: 50px 25px 50px 200px;
+    border: inset 11px lightCyan;
+    border-radius: 30px 30px 30px 30px;
+}
+section h2 {
+    font-size: 45px;
+    font-family: 'Beau Rivage', cursive;
+}
+
+.about-top {
+    font-size: 45px;
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bold;
+    margin-right: 220px;
+    border: outset 7px lightCyan;
+}
+
+.portfolio-top {
+    font-size: 45px;
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bold;
+    margin-right: 220px;
+    border: outset 7px lightCyan;
+}
+
+.contact-top {
+    font-size: 45px;
+    font-family: 'Beau Rivage', cursive;
+    font-weight: bold;
+    margin-right: 100px;
+    border: outset 7px lightCyan;
+}
+div section {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.about-body {
+    margin: 100px 100px 200px 228px;
+
+}
+
+.portfolio-body {
+    margin: 100px 100px 200px 220px;
+}
+.contact-body {
+    margin: 100px 100px 200px 245px;
+}
+
+footer {
+    border: 4px solid lightcyan;
+    width: 100%;
+    padding: 40px 35px;
+    background: linear-gradient(bisque, lightCyan);
+}
+
+footer h2 {
+    display: inline;
+    margin-left: 65px;
+    font-size: 45px;
+    font-family: 'Beau Rivage', cursive;
+}
